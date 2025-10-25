@@ -19,7 +19,8 @@
                         </li>
                         <li> {{ $package->available_pax }} </li>
                     </ul>
-                    <a href="#" class="btn btn-primary">LIhat Detail</a>
+                    <a href="{{ route('packages.detail-packages', $package->id) }}" class="btn btn-primary">LIhat
+                        Detail</a>
                     <a href="#" class="btn btn-outline-success">Pesan Sekarang</a>
                 </div>
             </div>
