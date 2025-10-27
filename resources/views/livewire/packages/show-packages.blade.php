@@ -18,6 +18,9 @@
                             {{ $package->airline }}
                         </li>
                         <li> {{ $package->available_pax }} </li>
+
+                        <li>{{ $prices->type }}: Rp {{ number_format($prices->price, 0, ',', '.') }}</li>
+
                     </ul>
                     <a href="{{ route('packages.detail-packages', $package->id) }}" class="btn btn-primary">LIhat
                         Detail</a>
