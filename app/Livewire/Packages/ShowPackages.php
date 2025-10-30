@@ -2,17 +2,17 @@
 
 namespace App\Livewire\Packages;
 
-use App\Models\Prices;
+use App\Models\Price;
 use Livewire\Component;
-use App\Models\Packages;
+use App\Models\Package;
 
 class ShowPackages extends Component
 {
     public function render()
     {
         return view('livewire.packages.show-packages', [
-            'packages' => Packages::all(),
-            'prices' => Prices::find(1)
+            'packages' => Package::all(),
+            'prices' => Price::find(1)
         ]);
     }
 }

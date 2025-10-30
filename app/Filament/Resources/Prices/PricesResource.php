@@ -7,7 +7,7 @@ use App\Filament\Resources\Prices\Pages\EditPrices;
 use App\Filament\Resources\Prices\Pages\ListPrices;
 use App\Filament\Resources\Prices\Schemas\PricesForm;
 use App\Filament\Resources\Prices\Tables\PricesTable;
-use App\Models\Prices;
+use App\Models\Price;
 use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
@@ -16,7 +16,7 @@ use Filament\Tables\Table;
 
 class PricesResource extends Resource
 {
-    protected static ?string $model = Prices::class;
+    protected static ?string $model = Price::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 

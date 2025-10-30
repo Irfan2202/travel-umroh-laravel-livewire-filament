@@ -9,7 +9,7 @@ use App\Filament\Resources\Packages\Pages\ViewPackages;
 use App\Filament\Resources\Packages\Schemas\PackagesForm;
 use App\Filament\Resources\Packages\Schemas\PackagesInfolist;
 use App\Filament\Resources\Packages\Tables\PackagesTable;
-use App\Models\Packages;
+use App\Models\Package;
 use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
@@ -18,7 +18,7 @@ use Filament\Tables\Table;
 
 class PackagesResource extends Resource
 {
-    protected static ?string $model = Packages::class;
+    protected static ?string $model = Package::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 

@@ -2,8 +2,9 @@
 
 namespace App\Livewire\Packages;
 
+use App\Models\Price;
 use Livewire\Component;
-use App\Models\Packages;
+use App\Models\Package;
 
 class DetailPackages extends Component
 {
@@ -11,13 +12,14 @@ class DetailPackages extends Component
 
     public function mount($id)
     {
-        $this->package = Packages::findOrFail($id);
+        $this->package = Package::findOrFail($id);
     }
 
     public function render()
     {
         return view('livewire.packages.detail-packages', [
-            'package' => $this->package
+            'packages' => Package::all(),
+            'prices' => Price::find(1)
         ]);
     }
 }
