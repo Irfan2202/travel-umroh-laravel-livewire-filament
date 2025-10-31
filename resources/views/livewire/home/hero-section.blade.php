@@ -3,6 +3,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
                 <img src="{{ asset('assets/images/1.jpg') }}" class="d-block w-100" alt="...">
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
                     <div class="w-50 mx-auto">
@@ -17,6 +18,7 @@
 
             <div class="carousel-item" data-bs-interval="10000">
                 <img src="{{ asset('assets/images/2.jpg') }}" class="d-block w-100" alt="...">
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
                     <div class="w-50 mx-auto">
@@ -31,6 +33,7 @@
 
             <div class="carousel-item" data-bs-interval="10000">
                 <img src="{{ asset('assets/images/3.jpg') }}" class="d-block w-100" alt="...">
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
                     <div class="w-50 mx-auto">

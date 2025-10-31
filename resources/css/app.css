@@ -1,1 +1,24 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap";
+/* Global Variables */
+:root {
+    --primary-gold: #f59e0b;
+    --gold-dark: #d97706;
+    --gold-light: #fbbf24;
+    --gold-pale: #fef3c7;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --bg-light: #f9fafb;
+}
+
+/* Navbar  */
+.navbar-brand,
+.nav-link {
+    color: var(--bg-light);
+}
+.navbar-brand span {
+    color: var(--gold-light);
+}
+
+.nav-link:hover {
+    color: var(--gold-light);
+}
