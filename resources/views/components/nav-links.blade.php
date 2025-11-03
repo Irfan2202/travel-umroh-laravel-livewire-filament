@@ -16,7 +16,6 @@
     </li>
     <div class="d-flex align-items-center gap-2">
         <button class="btn btn-sm rounded-pill" id="themeToggle">
-
             <i class="bi bi-moon" id="themeIcon"></i>
         </button>
         <button class="btn btn-gold btn-sm rounded-pill">
