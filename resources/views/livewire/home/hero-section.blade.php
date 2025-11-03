@@ -1,4 +1,4 @@
-<section id="home" class="hero-section">
+<section class="hero-section">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
@@ -6,7 +6,7 @@
                 <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-                    <div class="w-50 mx-auto">
+                    <div class=" mx-auto">
                         <h5 class="display-4 fw-bold">Wujudkan Ibadah Umroh & Haji Impian Anda</h5>
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
@@ -21,12 +21,12 @@
                 <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-                    <div class="w-50 mx-auto">
+                    <div class=" mx-auto">
                         <h5 class="display-4 fw-bold">Wujudkan Ibadah Umroh & Haji Impian Anda</h5>
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
-                        <a href="" class="btn ">lihat layanan</a>
-                        <a href="" class="btn btn-success">konsultasi gratis</a>
+                        <a href="" class="btn btn-lg btn-light rounded-pill px-4">lihat layanan</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
                     </div>
                 </div>
             </div>
@@ -36,12 +36,12 @@
                 <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-                    <div class="w-50 mx-auto">
+                    <div class=" mx-auto">
                         <h5 class="display-4 fw-bold">Wujudkan Ibadah Umroh & Haji Impian Anda</h5>
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
-                        <a href="" class="btn btn-success btn-lg px-4 rounded-pill">lihat layanan</a>
-                        <a href="" class="btn btn-success btn-lg px-4 rounded-pill">konsultasi gratis</a>
+                        <a href="" class="btn btn-lg btn-light rounded-pill px-4">lihat layanan</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
                     </div>
                 </div>
             </div>
