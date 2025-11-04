@@ -35,6 +35,13 @@ h2 span {
     color: var(--gold-light);
 }
 
+/* Button */
+.btn-gold {
+    background-color: var(--primary-gold) !important;
+    font-weight: 600 !important;
+    padding: 8px 16px !important;
+}
+
 /* Navbar  */
 .navbar-brand,
 .nav-link {
