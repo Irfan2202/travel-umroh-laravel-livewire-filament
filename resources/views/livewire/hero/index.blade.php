@@ -1,4 +1,4 @@
-<section class="hero-section">
+<section class="hero">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
@@ -6,14 +6,12 @@
                 <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-                    <div class="mx-auto">
+                    <div class="mx-auto col-lg-8">
                         <h5 class="display-4 fw-bold">Wujudkan Ibadah Umroh & Haji Impian Anda</h5>
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
-                        <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                            <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
-                            <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
-                        </div>
+                        <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
                     </div>
                 </div>
             </div>
@@ -23,14 +21,12 @@
                 <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-                    <div class=" mx-auto">
+                    <div class="mx-auto col-lg-8">
                         <h5 class="display-4 fw-bold">Wujudkan Ibadah Umroh & Haji Impian Anda</h5>
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
-                        <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                            <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
-                            <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
-                        </div>
+                        <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
                     </div>
                 </div>
             </div>
@@ -40,14 +36,12 @@
                 <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
                 <div
                     class="carousel-caption top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-                    <div class=" mx-auto">
+                    <div class="mx-auto col-lg-8">
                         <h5 class="display-4 fw-bold">Wujudkan Ibadah Umroh & Haji Impian Anda</h5>
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
-                        <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                            <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
-                            <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
-                        </div>
+                        <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
                     </div>
                 </div>
             </div>

@@ -31,6 +31,9 @@ section {
 h2 {
     margin: 4rem;
 }
+h2 span {
+    color: var(--gold-light);
+}
 
 /* Navbar  */
 .navbar-brand,

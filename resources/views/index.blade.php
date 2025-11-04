@@ -1,6 +1,5 @@
 <x-layouts.app title="">
-
-    <livewire:home.hero-section />
+    <livewire:hero.index />
+    <livewire:about.index />
     <livewire:packages.index />
-
 </x-layouts.app>
