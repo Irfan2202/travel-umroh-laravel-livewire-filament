@@ -3,4 +3,5 @@
     <livewire:about.index />
     <livewire:packages.index />
     <livewire:testimonials.index />
+    <livewire:contact.index />
 </x-layouts.app>
