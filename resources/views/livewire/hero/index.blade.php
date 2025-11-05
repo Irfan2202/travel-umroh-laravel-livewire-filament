@@ -11,7 +11,8 @@
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
                         <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
-                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4"><i
+                                class="bi bi-whatsapp"></i> konsultasi gratis</a>
                     </div>
                 </div>
             </div>
@@ -26,7 +27,8 @@
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
                         <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
-                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4"><i
+                                class="bi bi-whatsapp"></i> konsultasi gratis</a>
                     </div>
                 </div>
             </div>
@@ -41,7 +43,8 @@
                         <p class="lead">Bersama Al-Madinah Travel, perjalanan spiritual Anda akan terjamin nyaman dan
                             khusyuk</p>
                         <a href="" class="btn btn-lg btn-outline-light rounded-pill px-4">lihat layanan</a>
-                        <a href="" class="btn btn-lg btn-success rounded-pill px-4">konsultasi gratis</a>
+                        <a href="" class="btn btn-lg btn-success rounded-pill px-4"><i
+                                class="bi bi-whatsapp"></i> konsultasi gratis</a>
                     </div>
                 </div>
             </div>
