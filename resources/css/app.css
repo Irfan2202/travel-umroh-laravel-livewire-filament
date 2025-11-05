@@ -10,11 +10,9 @@
     --text-light: #6b7280;
     --bg-light: #f9fafb;
 }
-
 * {
     font-family: "Inter", sans-serif;
 }
-
 html {
     scroll-padding-top: 80px;
     scroll-behavior: smooth;
@@ -28,13 +26,14 @@ section {
     margin-top: 0;
 }
 
-h2 {
-    margin: 4rem;
-}
 h2 span {
     color: var(--gold-light);
 }
 
+ul li {
+    list-style: none;
+    margin: 0 !important;
+}
 /* Button */
 .btn-gold {
     background-color: var(--primary-gold) !important;
@@ -69,4 +68,29 @@ h2 span {
 }
 .carousel-item .overlay {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+}
+
+/* About Section */
+.about .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.about .card:hover {
+    transform: translateY(-10px);
+}
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.about ul li i {
+    color: var(--primary-gold);
+    margin-right: 8px;
 }
