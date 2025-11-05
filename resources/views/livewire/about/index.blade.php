@@ -12,11 +12,11 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-3">
+        <div class="row text-center">
+            <div class="col-lg-3 ">
                 <div class="card">
-                    <div class="icon">
-                        <i class="bi bi-shield-check"></i>
+                    <div class="icon ">
+                        <i class="bi bi-shield-check fs-1 text-white btn-gold rounded-circle"></i>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Terpercaya & Berlisensi</h5>
@@ -28,7 +28,7 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="icon">
-                        <i class="bi bi-people-fill"></i>
+                        <i class="bi bi-people-fill fs-1 text-white btn-gold rounded-circle"></i>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Tim Berpengalaman</h5>
@@ -40,7 +40,7 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="icon">
-                        <i class="bi bi-award-fill"></i>
+                        <i class="bi bi-award-fill fs-1 text-white btn-gold rounded-circle"></i>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Fasilitas Premium</h5>
@@ -52,7 +52,7 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="icon">
-                        <i class="bi bi-clock-fill"></i>
+                        <i class="bi bi-clock-fill fs-1 text-white btn-gold rounded-circle"></i>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Jadwal Fleksibel</h5>
