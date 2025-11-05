@@ -1,18 +1,18 @@
-<section class="about mt-5" id="about">
+<section class="about" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mx-auto text-center mb-5">
-                <h2 class="display-4 fw-bold mb-4">
+                <h2 class="display-4 fw-bold mb-5">
                     Mengapa Memilih <span>Al-Madinah Travel?</span>
                 </h2>
                 <p class="lead">
                     Dengan pengalaman lebih dari 15 tahun, kami telah melayani ribuan
-                    jamaah untuk menuxnaikan ibadah haji dan umroh dengan pelayanan
+                    jamaah untuk menunaikan ibadah haji dan umroh dengan pelayanan
                     terbaik dan fasilitas yang nyaman.
                 </p>
             </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center g-4">
             <div class="col-lg-3">
                 <div class="card">
                     <div class="icon-circle mt-4">
@@ -64,16 +64,22 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <h2 class=" display-6 fw-bold mb-3 mt-3">Komitmen Kami untuk Jamaah</h2>
-                <p> Al-Madinah Travel berkomitmen memberikan pelayanan terbaik untuk
+                <h3 class="display-6 fw-bold mb-4 mt-5">Komitmen Kami untuk Jamaah</h3>
+                <p class="lead mb-4">
+                    Al-Madinah Travel berkomitmen memberikan pelayanan terbaik untuk
                     mewujudkan ibadah haji dan umroh yang mabrur. Kami memahami bahwa
                     perjalanan ini adalah momen spiritual yang sangat berharga dalam
-                    hidup Anda.</p>
+                    hidup Anda.
+                </p>
                 <ul class="list-unstyled">
-                    <li><i class="bi bi-check-circle-fill"></i>Bimbingan manasik lengkap sebelum keberangkatan</li>
-                    <li><i class="bi bi-check-circle-fill"></i>Pendampingan 24 jam selama di Tanah Suci</li>
-                    <li><i class="bi bi-check-circle-fill"></i>Jaminan hotel dan transportasi berkualitas</li>
-                    <li><i class="bi bi-check-circle-fill"></i>Program ziarah ke tempat-tempat bersejarah</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill"></i>Bimbingan manasik lengkap sebelum
+                        keberangkatan</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill"></i>Pendampingan 24 jam selama di Tanah Suci
+                    </li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill"></i>Jaminan hotel dan transportasi berkualitas
+                    </li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill"></i>Program ziarah ke tempat-tempat bersejarah
+                    </li>
                 </ul>
             </div>
         </div>
