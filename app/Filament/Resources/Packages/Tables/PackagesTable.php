@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Packages\Tables;
 
+use Dom\Text;
 use Filament\Tables\Table;
 use Filament\Actions\EditAction;
 use Filament\Actions\ViewAction;
@@ -16,41 +17,42 @@ class PackagesTable
     {
         return $table
             ->columns([
+                TextColumn::make('title')
+                    ->label('Nama Paket')
+                    ->searchable(),
                 ImageColumn::make('image')
                     ->label('Gambar')
                     ->square(),
-
-                TextColumn::make('title')
-                    ->label('Nama Paket')
-                    ->searchable()
-                    ->sortable(),
-
+                TextColumn::make('description')
+                    ->label('Deskripsi')
+                    ->limit(50),
+                TextColumn::make('guide_name')
+                    ->label('Nama Pembimbing'),
+                TextColumn::make('hotel_makkah')
+                    ->label('Hotel Makkah'),
+                TextColumn::make('hotel_madinah')
+                    ->label('Hotel Madinah'),
+                TextColumn::make('hotel_stars')
+                    ->label('Bintang Hotel'),
                 TextColumn::make('departure_date')
-                    ->label('Berangkat')
+                    ->label('Tanggal Keberangkatan')
                     ->date()
                     ->sortable(),
-
-                TextColumn::make('duration_days')
-                    ->label('Durasi (Hari)')
-                    ->sortable(),
-
-                TextColumn::make('hotel_stars')
-                    ->label('Bintang Hotel')
-                    ->sortable(),
-
-                TextColumn::make('airline')
-                    ->label('Maskapai')
-                    ->toggleable()
-                    ->searchable(),
-
+                TextColumn::make('return_date')
+                    ->label('Tanggal Kepulangan')
+                    ->date(),
                 TextColumn::make('total_pax')
-                    ->label('Total Jamaah')
-                    ->sortable(),
-
-                TextColumn::make('available_pax')
-                    ->label('Sisa Kuota')
-                    ->color(fn($record) => $record->available_pax < 5 ? 'danger' : 'success')
-                    ->sortable(),
+                    ->label('Total Jamaah'),
+                TextColumn::make('avaible_pax')
+                    ->label('Sisa Kuota'),
+                -TextColumn::make('airline')
+                    ->label('Maskapai'),
+                TextColumn::make('departure_location')
+                    ->label('Lokasi Keberangkatan'),
+                TextColumn::make('airline')
+                    ->label('Maskapai'),
+                TextColumn::make('flight_route')
+                    ->label('Rute Penerbangan'),
             ])
             ->filters([
                 //

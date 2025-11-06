@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\Packages;
+use App\Models\Package;
 use Illuminate\Database\Seeder;
-use App\Models\Prices;
+use App\Models\Price;
 
 
 class PackageSeeder extends Seeder
@@ -15,9 +15,9 @@ class PackageSeeder extends Seeder
     public function run(): void
     {
         // Buat 3 paket umroh
-        Packages::factory()->count(3)->create();
+        Package::factory()->count(3)->create();
         //  harga global (tidak terkait ke package)
-        Prices::insert([
+        Price::insert([
             ['type' => 'QUAD', 'price' => 32600000, 'created_at' => now(), 'updated_at' => now()],
             ['type' => 'TRIPLE', 'price' => 34700000, 'created_at' => now(), 'updated_at' => now()],
             ['type' => 'DOUBLE', 'price' => 38300000, 'created_at' => now(), 'updated_at' => now()],

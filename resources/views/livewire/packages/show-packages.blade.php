@@ -1,7 +1,7 @@
 <div class="row">
     @foreach ($packages as $package)
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 {{ $package->duration_days }} Hari
                 <img src="{{ asset('assets/images/1.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
