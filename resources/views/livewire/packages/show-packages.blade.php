@@ -1,27 +1,32 @@
 <div class="row">
     @foreach ($packages as $package)
-        <div class="col">
+        <div class="col-lg-4 g-4">
             <div class="card">
-                {{ $package->duration_days }} Hari
+                <small class="badge bg-primary position-absolute m-2">
+                    <i class="bi bi-calendar-event me-1"></i>
+                    {{ $package->duration_days }} Hari
+                </small>
                 <img src="{{ asset('assets/images/1.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ $package->title }}</h5>
                     <p class="card-text">{{ $package->description }}</p>
-                    <ul>
-                        <li>
+                    <ul class="package-icon">
+                        <li><i class="bi bi-check "></i>
                             {{ $package->hotel_stars }}
                         </li>
-                        <li>
+                        <li><i class="bi bi-check"></i>
                             {{ $package->departure_location }}
                         </li>
-                        <li>
+                        <li><i class="bi bi-check"></i>
                             {{ $package->airline }}
                         </li>
-                        <li> {{ $package->available_pax }} </li>
-
-                        <li>{{ $prices->type }}: Rp {{ number_format($prices->price, 0, ',', '.') }}</li>
-
+                        <li><i class="bi bi-check"></i>{{ $package->available_pax }} </li>
                     </ul>
+                    <div class="mt-3">
+                        <p class="mb-0">Mulai dari</p>
+                        <h4 class="fw-bold text-lead mb-0">Rp {{ number_format($prices->price, 0, ',', '.') }}</h4>
+                        <p class="text-muted mt-0 mb-0">per jamaah</p>
+                    </div>
                     <a href="{{ route('packages.detail-packages', $package->id) }}" class="btn btn-primary">LIhat
                         Detail</a>
                     <a href="#" class="btn btn-outline-success">Pesan Sekarang</a>

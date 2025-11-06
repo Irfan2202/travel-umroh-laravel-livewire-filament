@@ -95,3 +95,18 @@ ul li {
     color: var(--primary-gold);
     margin-right: 8px;
 }
+/* Package Section */
+.package-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.package-icon li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.package-icon li i {
+    color: var(--primary-gold);
+    margin-right: 8px;
+}
