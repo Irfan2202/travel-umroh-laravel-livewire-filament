@@ -114,3 +114,15 @@ ul li {
     color: var(--primary-gold);
     margin-right: 8px;
 }
+
+/* Contact Section */
+.contact-info {
+    border-bottom: 1px solid var(--bg-light);
+    padding: 12px;
+    border-radius: 6px;
+}
+.contact-info:hover {
+    background-color: var(--gold-pale);
+    transform: translateY(-10px);
+    cursor: pointer;
+}

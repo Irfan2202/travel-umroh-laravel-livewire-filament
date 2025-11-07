@@ -14,36 +14,40 @@
                         <div class="card-header">
                             <h4 class="fw-bold mb-4">Informasi Kontak</h4>
                             <ul>
-                                <li>
-                                    <div class="icon">
-                                        <i class="bi bi-telephone-fill"></i>
+                                <li class="contact-info d-flex align-items-center gap-3 mb-3">
+                                    <div
+                                        class="btn-gold d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="bi bi-telephone-fill text-white fs-5"></i>
                                     </div>
                                     <div>
-                                        <div class="fw-bold">Telepon</div>
-                                        <div>+62 085721122232</div>
+                                        <div class="fw-semibold text-dark mb-0">Telepon</div>
+                                        <div class="text-muted">+62 085721122232</div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="bi bi-whatsapp"></i>
+                                <li class="contact-info d-flex align-items-center gap-3 mb-3">
+                                    <div
+                                        class="btn-gold d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="bi bi-whatsapp text-white fs-5"></i>
                                     </div>
                                     <div>
-                                        <div class="fw-bold">WhatsApp</div>
+                                        <div class="fw-bold text-dark mb-0">WhatsApp</div>
                                         <div>+62 081234567890</div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="bi bi-envelope-fill"></i>
+                                <li class="contact-info d-flex align-items-center gap-3 mb-3">
+                                    <div
+                                        class="btn-gold d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="bi bi-envelope-fill text-white fs-5"></i>
                                     </div>
                                     <div>
-                                        <div class="fw-bold">Email</div>
+                                        <div class="fw-bold text-dark mb-0">Email</div>
                                         <div>info@travelumroh.com</div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="bi bi-geo-alt-fill"></i>
+                                <li class="contact-info d-flex align-items-center gap-3 mb-3">
+                                    <div
+                                        class="btn-gold d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="bi bi-geo-alt-fill text-white fs-5"></i>
                                     </div>
                                     <div>
                                         <div class="fw-bold">Alamat</div>
