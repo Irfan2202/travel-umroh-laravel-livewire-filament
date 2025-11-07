@@ -58,21 +58,23 @@
                         </div>
                     </div>
                     <div class="card">
-                        <i class="bi bi-clock-fill me-2 fs-4"></i>
-                        <h5 class="fw-bold mb-0">Jam Operasional</h5>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="mb-2">
-                                    <div>Senin - Jumat</div>
-                                    <div class="fw-semibold">08:00 - 20:00</div>
-                                </div>
-                                <div class="mb-2">
-                                    <div>Sabtu</div>
-                                    <div class="fw-semibold">08:00 - 17:00</div>
-                                </div>
-                                <div>
-                                    <div>Minggu</div>
-                                    <div class="fw-semibold">09:00 - 15:00</div>
+                        <div class="card-header">
+                            <i class="bi bi-clock-fill me-2 fs-4"></i>
+                            <h5 class="fw-bold mb-0">Jam Operasional</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-2">
+                                        <div>Senin - Jumat</div>
+                                        <div class="fw-semibold">08:00 - 20:00</div>
+                                    </div>
+                                    <div class="mb-2">
+                                        <div>Sabtu</div>
+                                        <div class="fw-semibold">08:00 - 17:00</div>
+                                    </div>
+                                    <div>
+                                        <div>Minggu</div>
+                                        <div class="fw-semibold">09:00 - 15:00</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
