@@ -10,12 +10,14 @@
         <livewire:packages.show-packages />
         <div class="row">
             <div class="col-lg-8 mx-auto text-center mt-5">
-                <h4 class="fw-bold mb-3">Butuh Paket Kustomisasi?</h4>
-                <p class="mb-4">
-                    Kami juga melayani paket khusus sesuai permintaan Anda. Hubungi
-                    tim kami untuk konsultasi dan penawaran terbaik.
-                </p>
-                <button>Konsultasi Gratis</button>
+                <div class="card border-0 bg-light p-4">
+                    <h4 class="fw-bold mb-3">Butuh Paket Kustomisasi?</h4>
+                    <p class="mb-4">
+                        Kami juga melayani paket khusus sesuai permintaan Anda. Hubungi
+                        tim kami untuk konsultasi dan penawaran terbaik.
+                    </p>
+                    <a href="#" class="btn btn-outline-success w-100">Konsultasi Gratis</a>
+                </div>
             </div>
         </div>
     </div>

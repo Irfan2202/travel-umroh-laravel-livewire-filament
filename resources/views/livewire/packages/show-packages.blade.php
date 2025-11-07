@@ -27,9 +27,11 @@
                         <h4 class="fw-bold text-lead mb-0">Rp {{ number_format($prices->price, 0, ',', '.') }}</h4>
                         <p class="text-muted mt-0 mb-0">per jamaah</p>
                     </div>
-                    <a href="{{ route('packages.detail-packages', $package->id) }}" class="btn btn-primary">LIhat
-                        Detail</a>
-                    <a href="#" class="btn btn-outline-success">Pesan Sekarang</a>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="{{ route('packages.detail-packages', $package->id) }}" class="btn btn-gold">Lihat
+                            Detail</a>
+                        <a href="#" class="btn btn-outline-success">Pesan Sekarang</a>
+                    </div>
                 </div>
             </div>
         </div>

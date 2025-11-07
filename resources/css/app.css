@@ -40,6 +40,10 @@ ul li {
     font-weight: 600 !important;
     padding: 8px 16px !important;
 }
+.btn-gold:hover {
+    background-color: var(--gold-dark) !important;
+    color: #fff !important;
+}
 
 /* Navbar  */
 
