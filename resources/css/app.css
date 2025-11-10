@@ -34,6 +34,7 @@ ul li {
     list-style: none;
     margin: 0 !important;
 }
+
 /* Button */
 .btn-gold {
     background-color: var(--primary-gold) !important;
@@ -125,4 +126,18 @@ ul li {
     background-color: var(--gold-pale);
     transform: translateY(-10px);
     cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    padding: 40px;
+}
+.footer a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fbbf24 !important;
+    text-decoration: underline;
 }
