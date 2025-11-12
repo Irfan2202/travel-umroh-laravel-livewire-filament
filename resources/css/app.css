@@ -14,7 +14,7 @@
     font-family: "Poppins", sans-serif;
 }
 html {
-    scroll-padding-top: 80px;
+    scroll-padding-top: 100px;
     scroll-behavior: smooth;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 section {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 h2 span {
@@ -47,7 +47,9 @@ ul li {
 }
 
 /* Navbar  */
-
+.navbar {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+}
 .navbar-brand,
 .nav-link {
     color: var(--bg-light) !important;
