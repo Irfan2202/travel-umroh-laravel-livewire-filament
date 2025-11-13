@@ -11,6 +11,8 @@ use Filament\Actions\DeleteBulkAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
 
+
+
 class PackagesTable
 {
     public static function configure(Table $table): Table
@@ -45,7 +47,7 @@ class PackagesTable
                     ->label('Total Jamaah'),
                 TextColumn::make('avaible_pax')
                     ->label('Sisa Kuota'),
-                -TextColumn::make('airline')
+                TextColumn::make('airline')
                     ->label('Maskapai'),
                 TextColumn::make('departure_location')
                     ->label('Lokasi Keberangkatan'),
