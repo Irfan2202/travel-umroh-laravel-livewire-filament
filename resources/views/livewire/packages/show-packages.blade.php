@@ -6,7 +6,8 @@
                     <i class="bi bi-calendar-event me-1"></i>
                     {{ $package->duration_days }} Hari
                 </small>
-                <img src="{{ asset('assets/images/1.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('storage/' . $package->image) }}" alt="Gambar Paket">
+
                 <div class="card-body">
                     <h5 class="card-title">{{ $package->title }}</h5>
                     <p class="card-text">{{ $package->description }}</p>

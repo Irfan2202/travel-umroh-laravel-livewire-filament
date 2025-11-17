@@ -16,7 +16,10 @@ class PackagesForm
                     ->label('Nama Paket'),
                 FileUpload::make('image')
                     ->label('Gambar')
-                    ->image(),
+                    ->image()
+                    ->directory('packages')
+                    ->disk('public')
+                    ->visibility('public'),
                 TextInput::make('description')
                     ->label('Deskripsi'),
                 TextInput::make('guide_name')
@@ -33,14 +36,12 @@ class PackagesForm
                     ->label('Tanggal Kepulangan'),
                 TextInput::make('total_pax')
                     ->label('Total Jamaah'),
-                TextInput::make('avaible_pax')
+                TextInput::make('available_pax')
                     ->label('Sisa Kuota'),
                 TextInput::make('airline')
                     ->label('Maskapai'),
                 TextInput::make('departure_location')
                     ->label('Lokasi Keberangkatan'),
-                TextInput::make('airline')
-                    ->label('Maskapai'),
                 TextInput::make('flight_route')
                     ->label('Rute Penerbangan'),
             ]);

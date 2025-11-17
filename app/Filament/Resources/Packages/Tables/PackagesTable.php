@@ -45,7 +45,7 @@ class PackagesTable
                     ->date(),
                 TextColumn::make('total_pax')
                     ->label('Total Jamaah'),
-                TextColumn::make('avaible_pax')
+                TextColumn::make('available_pax')
                     ->label('Sisa Kuota'),
                 TextColumn::make('airline')
                     ->label('Maskapai'),
