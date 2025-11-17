@@ -18,9 +18,9 @@ class PackageSeeder extends Seeder
         Package::factory()->count(3)->create();
         //  harga global (tidak terkait ke package)
         Price::insert([
-            ['type' => 'QUAD', 'price' => 32600000, 'created_at' => now(), 'updated_at' => now()],
-            ['type' => 'TRIPLE', 'price' => 34700000, 'created_at' => now(), 'updated_at' => now()],
-            ['type' => 'DOUBLE', 'price' => 38300000, 'created_at' => now(), 'updated_at' => now()],
+            ['type' => 'QUAD', 'amount' => 32600000, 'created_at' => now(), 'updated_at' => now()],
+            ['type' => 'TRIPLE', 'amount' => 34700000, 'created_at' => now(), 'updated_at' => now()],
+            ['type' => 'DOUBLE', 'amount' => 38300000, 'created_at' => now(), 'updated_at' => now()],
         ]);
     }
 }

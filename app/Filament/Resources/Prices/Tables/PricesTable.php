@@ -16,8 +16,8 @@ class PricesTable
             ->columns([
                 TextColumn::make('type')
                     ->label('type'),
-                TextColumn::make('price')
-                    ->label('price'),
+                TextColumn::make('amount')
+                    ->label('amount'),
             ])
             ->filters([
                 //    
