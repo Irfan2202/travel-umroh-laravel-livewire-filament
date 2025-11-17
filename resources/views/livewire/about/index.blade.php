@@ -82,5 +82,16 @@
                     </li>
                 </ul>
             </div>
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="{{ asset('assets/images/3.jpg') }}" class="d-block w-100 mt-5 rounded" alt="...">
+                    <div class="position-absolute bottom-0 end-0 bg-white rounded-4 p-4 shadow-lg me-3 mb-3">
+                        <div class="text-center">
+                            <div class="display-6 fw-bold text-gold">5000+</div>
+                            <div class="text-muted">Jamaah Terlayani</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 </section>
