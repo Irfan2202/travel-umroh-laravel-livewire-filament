@@ -16,10 +16,10 @@
                 <button class="btn btn-sm btn-secondary rounded-pill" id="themeToggle">
                     <i class="bi bi-moon" id="themeIcon"></i>
                 </button>
-                <button class="btn btn-gold btn-sm rounded-pill">
+                <a href="{{ filament()->getLoginUrl() }}" class="btn btn-gold btn-sm rounded-pill">
                     <i class="bi bi-telephone-fill me-1"></i>
                     Masuk / Daftar
-                </button>
+                </a>
             </div>
         </div>
     </div>
