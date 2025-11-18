@@ -33,7 +33,7 @@
         </div>
         <livewire:prices.show-price />
         <div class="justify-content-center align-items-center text-center mt-4 mb-5">
-            <a href="" class="btn btn-gold">Order sekarang</a>
+            <a href="{{ route('orders.index') }}" class="btn btn-gold">Order sekarang</a>
         </div>
     </div>
 </section>
