@@ -10,8 +10,7 @@
 
                 <div class="card-body">
                     <h5 class="card-title">{{ $package->title }}</h5>
-                    <p> {{ implode(' ', array_slice(explode(' ', $package->description), 0, 20)) }}{{ str_word_count($package->description) > 20 ? '...' : '' }}
-                    </p>
+                    <p class="card-text">{{ $package->description }}</p>
                     <ul class="package-icon">
                         <li><i class="bi bi-check "></i>
                             {{ $package->hotel_stars }}

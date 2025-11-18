@@ -31,8 +31,9 @@
                 </ul>
             </div>
         </div>
+        <livewire:prices.show-price />
+        <div class="justify-content-center align-items-center text-center mt-4 mb-5">
+            <a href="" class="btn btn-gold">Order sekarang</a>
+        </div>
     </div>
-
-    <livewire:prices.show-price />
-    <a href="">Order sekarang</a>
 </section>
